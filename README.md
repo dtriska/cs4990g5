@@ -10,7 +10,7 @@
 
 ## Course Information
 - Course: CS 4990
-- Date: 3 January 2024
+- Date: 9 January 2024
 
 ## Project Outline Report
 
