@@ -33,7 +33,7 @@ For our project, we aim to create a dynamic website hosting a resume that can be
 
 ### Data Flow Diagrams
 #### Level 0 Data Flow Diagram
-*Insert Level 0 DFD here*
+![Level0-DFD](https://github.com/dtriska/cs4990g5/assets/112901210/7df64e2c-02ec-40a7-95e0-715452c9658d)
 
 #### Level 1 Data Flow Diagram
 ![Level1-DFD drawio](https://github.com/dtriska/cs4990g5/assets/112901210/b25d56b2-95a9-4c0f-a621-f53b9128040e)
