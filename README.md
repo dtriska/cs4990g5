@@ -1,4 +1,5 @@
 # Project: Group 5 Resume Website
+http://cs4990g5.com.s3-website-us-west-1.amazonaws.com/
 
 ## Team Members
 - Connor McCarry
