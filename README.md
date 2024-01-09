@@ -37,4 +37,5 @@ For our project, we aim to create a dynamic website hosting a resume that can be
 ![Level0-DFD](https://github.com/dtriska/cs4990g5/assets/112901210/7df64e2c-02ec-40a7-95e0-715452c9658d)
 
 #### Level 1 Data Flow Diagram
-![Level1-DFD drawio](https://github.com/dtriska/cs4990g5/assets/112901210/b25d56b2-95a9-4c0f-a621-f53b9128040e)
+![Level1-DFD-1](https://github.com/dtriska/cs4990g5/assets/112901210/4b4d6e49-1c1d-4683-9044-60127bfa0351)
+
