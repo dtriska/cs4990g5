@@ -74,11 +74,19 @@ body {
     margin: 10px 0;
   }
   
+  .guessing-game {
+    text-align: center;
+  }
+  
+  .guessing-game h2 {
+    text-align: left;
+  }
+  
   #message,
   #guess-input,
   #submit-guess,
-  #restart-game-button,
-  .button {
+  #restart-game-button {
     text-align: center;
     margin: 10px auto;
+    display: block;
   }
