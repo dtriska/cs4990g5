@@ -21,7 +21,7 @@ let secretNumber;
 let attempts = 0;
 
 function initializeGame() {
-  // Generate a random number between 1 and 100
+  // Generate random number and initialize attempts
   secretNumber = Math.floor(Math.random() * 100) + 1;
   attempts = 0;
 
@@ -29,33 +29,33 @@ function initializeGame() {
   document.getElementById('guess-input').style.display = 'block';
   document.getElementById('submit-guess').style.display = 'block';
 
-  // Display the initial message
   displayMessage('Guess a number between 1 and 100');
 }
 
 function submitGuess() {
-  // Get the user's guess from the input field
+  // Get user guess
   const userGuess = parseInt(document.getElementById('guess-input').value);
 
   // Check if the guess is correct
   if (userGuess === secretNumber) {
     displayMessage(`Congratulations! You guessed the number in ${attempts} attempts.`);
-    // Hide the input field and button after the game is won
+
+    // Hide the input field and submit button
     document.getElementById('guess-input').style.display = 'none';
     document.getElementById('submit-guess').style.display = 'none';
-  } else {
+  } 
+  else {
     // Provide a hint whether the secret number is higher or lower
     const hint = userGuess < secretNumber ? 'Higher' : 'Lower';
     displayMessage(`${hint}! Try again.`);
-    // Increment the attempts
+
     attempts++;
   }
 }
 
 function displayMessage(message) {
-  // Display the message to the user
+  // Display message
   document.getElementById('message').innerText = message;
 }
 
-// Call initializeGame when the page loads
 initializeGame();
