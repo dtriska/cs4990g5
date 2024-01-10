@@ -75,8 +75,8 @@ body {
   }
   
   #message,
-  #guess-input-button,
-  #submit-guess-button,
+  #guess-input,
+  #submit-guess,
   #restart-game-button {
     text-align: center;
     margin: 10px auto;
