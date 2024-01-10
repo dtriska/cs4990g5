@@ -78,15 +78,11 @@ body {
     text-align: center;
   }
   
-  .guessing-game h2 {
-    text-align: left;
-  }
-  
-  #message,
+  /* #message,
   #guess-input,
   #submit-guess,
   #restart-game-button {
     text-align: center;
     margin: 10px auto;
     display: block;
-  }
+  } */
